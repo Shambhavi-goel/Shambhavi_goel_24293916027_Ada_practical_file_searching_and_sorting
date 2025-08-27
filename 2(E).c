@@ -29,7 +29,7 @@ int main(){
     int n;
     printf("Enter the number of elements:");
     scanf("%d", &n); 
-    if(n<=10){ //n= 10, 50, 100, 500, 1000, 3000, 5000, 6000, 7000, 8000
+    if(n<=8000){ //n= 10, 50, 100, 500, 1000, 3000, 5000, 6000, 7000, 8000
         printf("Please enter a value greater than 8000\n");
         return 1; 
     }
@@ -49,4 +49,5 @@ int main(){
     printf("Time taken to sort %d elements: %f seconds\n",n,time_taken);
     free(arr);
     return 0;
+
 }
